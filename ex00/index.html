@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Saba's personal portfolio showcasing web development projects and skills.">
+
+    <title>Saba'a | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container nav-container">
+
+            <a class="brand" href="#about" aria-label="Saba's portfolio home">
+                Saba'a<span>.</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button
+                class="theme-toggle"
+                id="theme-toggle"
+                type="button"
+                aria-pressed="false"
+            >
+                Dark mode
+            </button>
+
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- About Me -->
+        <section class="section about-section" id="about">
+            <div class="container about-layout">
+
+                <div class="about-copy">
+                    <p class="eyebrow">WEB DEVELOPMENT STUDENT</p>
+
+                    <h1>Building my path, one project at a time.</h1>
+
+                    <p class="lead">
+                        Hi, I'm Saba'a. I'm learning web development
+                        by building projects and practicing new skills.
+                    </p>
+
+                    <p>
+                        I enjoy understanding how websites work,
+                        solving problems, and turning ideas into
+                        interactive web experiences. This portfolio
+                        documents my learning journey.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button" href="#projects">
+                            Explore my projects
+                        </a>
+
+                        <a class="button button-secondary" href="#contact">
+                            Contact me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-image-wrap">
+                    <img
+                        class="profile-photo"
+                        src="assets/profile.jpg"
+                        alt="Portrait of me"
+                        width="320"
+                        height="360"
+                    >
+
+                    <p class="photo-note">
+                        
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I'M LEARNING</p>
+                    <h2>My Skills</h2>
+                    <p>
+                        The tools and concepts I'm developing
+                        through hands-on practice.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>HTML5</h3>
+                        <p>Semantic structure and accessible content.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>CSS</h3>
+                        <p>Styling, layouts, Flexbox and responsive design.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>JavaScript</h3>
+                        <p>Programming logic, events and DOM manipulation.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>Git</h3>
+                        <p>Tracking changes and managing project history.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">05</span>
+                        <h3>GitHub</h3>
+                        <p>Hosting repositories and sharing my work.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">06</span>
+                        <h3>Problem Solving</h3>
+                        <p>Breaking tasks into smaller, manageable steps.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">MY LEARNING JOURNEY</p>
+                    <h2>Featured Projects</h2>
+                    <p>
+                        A collection of my first projects in web development.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <p class="project-label">PROJECT 00</p>
+                        <h3>Linux, Git & GitHub</h3>
+                        <p>
+                            My introduction to Linux terminal commands,
+    Git version control, and GitHub repositories.
+                        </p>
+                        <a
+                            class="project-link"
+                            href="https://github.com/s44aba-byte/discovery-web-piscine"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View repository <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-label">PROJECT 01</p>
+                        <h3>HTML Fundamentals</h3>
+                        <p>
+                            Practicing HTML document structure,
+                            semantic elements, links and forms.
+                        </p>
+                        <a
+                            class="project-link"
+                            href="https://github.com/s44aba-byte/project01"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View repository <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-label">PROJECT 02</p>
+                        <h3>CSS & Visual Presentation</h3>
+                        <p>
+                            Exploring the box model, positioning,
+                            Flexbox, colors and responsive layouts.
+                        </p>
+                        <a
+                            class="project-link"
+                            href="https://github.com/s44aba-byte/Project02"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View repository <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-label">PROJECT 03</p>
+                        <h3>JavaScript & Interactivity</h3>
+                        <p>
+                            Learning variables, functions, event handling
+                            and interactive web page behavior.
+                        </p>
+                        <a
+                            class="project-link"
+                            href="https://github.com/s44aba-byte/Project03-Javascript"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View repository <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section class="section" id="hobbies">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">OUTSIDE THE CODE</p>
+                    <h2>Things I Enjoy</h2>
+                    <p>
+                        Activities that inspire curiosity and creativity.
+                    </p>
+                </div>
+
+                <div class="hobbies-grid">
+
+                    <article class="hobby-card">
+                        <span aria-hidden="true">01</span>
+                        <h3>Learning</h3>
+                        <p>Exploring new concepts and improving my skills.</p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <span aria-hidden="true">02</span>
+                        <h3>Problem Solving</h3>
+                        <p>Breaking challenges down and finding solutions.</p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <span aria-hidden="true">03</span>
+                        <h3>Creative Ideas</h3>
+                        <p>Discovering ideas for useful and engaging websites.</p>
+                    </article>
+
+                </div>
+
+                <p class="personal-note">
+                    
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="container contact-layout">
+
+                <div class="contact-copy">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Have a question or an idea?</h2>
+                    <p>
+                        Send a message using the form. This version
+                        demonstrates front-end form handling.
+                    </p>
+
+                    <a
+                        class="github-link"
+                        href="https://github.com/s44aba-byte"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Find me on GitHub ↗
+                    </a>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            placeholder="Enter your name"
+                            required
+                            minlength="2"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message..."
+                            required
+                            minlength="5"
+                        ></textarea>
+                    </div>
+
+                    <button class="button submit-button" type="submit">
+                        Check my message
+                    </button>
+
+                    <p
+                        class="form-message"
+                        id="form-message"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>
+                &copy; <span id="current-year">2026</span> Saba.
+                Built with HTML, CSS and JavaScript.
+            </p>
+
+            <a href="#about">Back to top ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
